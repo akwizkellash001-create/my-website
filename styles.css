@@ -32,6 +32,8 @@ header {
     justify-content: flex-end;
     gap: 2.5rem;
     animation: navFadeIn 1s ease;
+    font-size: 17px;
+    
 }
 
 @keyframes navFadeIn {
@@ -220,3 +222,4 @@ form label {
   color: #333;            /* Rangi ya giza kidogo */
   font-family: Arial, sans-serif;  /* Font nzuri na safi */
 }
+
