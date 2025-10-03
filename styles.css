@@ -28,11 +28,11 @@ header {
 
 .nav-links {
     list-style: none;
-    display: flex;
+    display: center;
     justify-content: center;
     gap: 2.5rem;
     animation: navFadeIn 1s ease;
-    font-size: 15px;
+    font-size: 16px;
 }
 
 @keyframes navFadeIn {
@@ -54,7 +54,7 @@ header {
     color: #fff;
     text-decoration: none;
     padding: 0.7rem 1.5rem;
-    display: block;
+    display: center;
     font-weight: 700;
     letter-spacing: 1.2px;
     border-radius: 12px;
@@ -76,7 +76,7 @@ header {
     left: 50%;
     bottom: 0;
     width: 0;
-    height: 3px;
+    height: 6px;
     background-color: #000000;
     transition: width 0.3s, left 0.3s;
     border-radius: 2px;
@@ -171,7 +171,8 @@ footer {
 nav {
   display: flex;
   align-items: center;
-  justify-content: space-between;
+  justify-content: center;
+    font-size: 18px;
 }
 
 .logo {
@@ -221,5 +222,6 @@ form label {
   color: #333;            /* Rangi ya giza kidogo */
   font-family: Arial, sans-serif;  /* Font nzuri na safi */
 }
+
 
 
